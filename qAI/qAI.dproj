@@ -49,8 +49,5 @@
     <Compile Include="lists.d" />
     <Compile Include="bot.d" />
     <Compile Include="memory.d" />
-    <Compile Include="ui\baseConv.d" />
-    <Compile Include="ui\qui.d" />
-    <Compile Include="ui\terminal.d" />
   </ItemGroup>
 </Project>
