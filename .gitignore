@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/qai
+qai.so
+qai.dylib
+qai.dll
+qai.a
+qai.lib
+qai-test-*
+*.exe
+*.o
+*.obj
+*.lst
