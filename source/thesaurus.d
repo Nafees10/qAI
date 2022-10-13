@@ -36,7 +36,7 @@ public:
 		}
 	}
 	~this(){
-		delete wlist;
+		.destroy(wlist);
 	}
 	void load(string f){
 		fname = f;

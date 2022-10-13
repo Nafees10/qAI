@@ -28,9 +28,9 @@ public:
 	}
 	~this(){
 		thes.save;
-		delete thes;
+		.destroy(thes);
 		mem.save;
-		delete mem;
+		.destroy(mem);
 	}
 	void save(){
 		mem.save;

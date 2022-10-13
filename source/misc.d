@@ -178,6 +178,6 @@ string[] sentenceToWords(string s){
 		}
 	}
 	r = list.toArray;
-	delete list;
+	.destroy(list);
 	return r;
 }

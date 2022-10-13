@@ -20,7 +20,7 @@ public:
 		}
 	}
 	~this(){
-		delete mem;
+		.destroy(mem);
 	}
 	void load(){
 		//first, load it in mem
@@ -46,7 +46,7 @@ public:
 				}
 			}
 		}
-		delete responses;
+		.destroy(responses);
 		//everything's set up!
 	}
 	string getResponse(string asked, Thesaurus* thes){

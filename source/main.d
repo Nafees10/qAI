@@ -58,7 +58,7 @@ void main(string[] args){
 			}
 		}
 	}
-	delete bot;
+	.destroy(bot);
 	write("\nExiting qAI, press Enter...");readln;
 }
 

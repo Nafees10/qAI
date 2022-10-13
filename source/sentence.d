@@ -33,7 +33,7 @@ public:
 			}
 		}
 		words = wrds.toArray;
-		delete wrds;
+		.destroy(wrds);
 	}
 	string read(){
 		string r;
