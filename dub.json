@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Nafees"
+	],
+	"copyright": "Copyright © 2022, Nafees",
+	"dependencies": {
+		"qui": "~>0.5.5",
+		"utils": "~>0.6.2"
+	},
+	"description": "A simple chatbot",
+	"license": "MIT",
+	"name": "qai"
+}
