@@ -4,6 +4,7 @@ import misc;
 import lists;
 import thesaurus;
 import std.algorithm:canFind;
+import std.conv : to;
 
 class Tsentence{
 private:
@@ -17,12 +18,12 @@ public:
 		}
 	}
 	void loadline(string s){
-		Tlist!string wrds = new Tlist!string;
+		List!string wrds = new List!string;
 		line = s;
 
 		string sp = "! ,?.";
 		uint i, rFrom;
-		uint end = s.length-1;
+		uint end = cast(uint)s.length-1;
 		for (i=0;i<s.length;i++){
 			if (sp.canFind(s[i]) || i==end){
 				wrds.add(sp[rFrom..i]);
@@ -48,9 +49,9 @@ public:
 	void modify(Thesaurus thes){
 		this.loadline(thes.modify(line));
 	}
-	string standardize(){
-
-	}
+	/*string standardize(){
+		// i forgot what I was adding this function to do
+	}*/
 	@property position(uint i){
 		return pos=i;
 	}
